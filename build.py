@@ -16,7 +16,9 @@ mds = ["1.概论.md", "2.软件质量管理.md", "3.软件项目管理.md", "4.�
 if os.path.exists(cwd + "\\build"):
     print("拼接文件中...")
     build(mds, path)
+    print("拼接完成")
 else:
     print("拼接文件中...")
     os.mkdir(cwd + "\\build")
     build(mds, path)
+    print("拼接完成")
