@@ -1,4 +1,8 @@
 # ignore obsidian files
 .obsidian/
+
 # build path
 build/
+
+# draw.io files
+*.bkp
