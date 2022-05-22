@@ -1,2 +1,4 @@
 # ignore obsidian files
 .obsidian/
+# build path
+build/
